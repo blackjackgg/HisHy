@@ -1,0 +1,51 @@
+{
+  "id": "2838105",
+  "name": "his",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "24564110",
+      "name": "浮尘",
+      "font_class": "fuchen",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "24564117",
+      "name": "白天多云",
+      "font_class": "baitianduoyun",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "5387532",
+      "name": "减号",
+      "font_class": "jianhao",
+      "unicode": "eaf5",
+      "unicode_decimal": 60149
+    },
+    {
+      "icon_id": "5387527",
+      "name": "加号",
+      "font_class": "jiahao",
+      "unicode": "eaf3",
+      "unicode_decimal": 60147
+    },
+    {
+      "icon_id": "24564103",
+      "name": "白天晴",
+      "font_class": "baitianqing",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "24556302",
+      "name": "monitor",
+      "font_class": "monitor",
+      "unicode": "e90d",
+      "unicode_decimal": 59661
+    }
+  ]
+}
