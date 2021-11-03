@@ -126,8 +126,10 @@
 
     </div>
 </template>
+
 <script>
-    import qs from "qs";
+import http, {service} from "@/http/request";
+
     export default{
         name:"cwgl",
         components: {},
@@ -187,7 +189,7 @@
             },
 
             initData() {
-                this.axios.get("http://localhost:8088/find-hospital1")
+                service("http://localhost:8088/find-hospital1")
                     .then((v) => {
                         this.tableData = v.data;
                     })

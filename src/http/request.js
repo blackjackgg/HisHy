@@ -4,7 +4,7 @@ import Cookies from "js-cookie";
 import {refreshTokenApi} from "../api/login"
 import {setToken, setTokenTime, getToken, getTokenTime} from "../utils/auth"
 
-const service = axios.create({
+export const service = axios.create({
     //接口请求地址，是一个域名
     baseURL: 'http://localhost:8088/',
     timeout: 1000

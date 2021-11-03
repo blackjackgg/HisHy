@@ -2,7 +2,7 @@
 
   <el-container class="home">
 
-    <el-header style="background-color: blueviolet;
+    <el-header style="background-color: gray;
     color: aliceblue;
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,7 @@
         </el-dropdown>
 
         <div class="userInfo">
-          <div class="userNames">欢迎您，{{showUserName}}</div>
+          <div class="userNames">欢迎您 ->->->->->   {{showUserName}}</div>
           <div>{{ date }}</div>
         </div>
 
@@ -98,6 +98,7 @@ import Cookies from 'js-cookie';
 var $vueIndex;
 export default {
   name: "Home",
+
   components: {
     MenuBar,
     Tabs
