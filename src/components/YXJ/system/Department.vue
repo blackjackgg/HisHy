@@ -316,6 +316,7 @@ export default {
     //上级部门确认事件
     parentOnFirm() {
       this.parentDialog.visible = false
+      console.log("杨思")
     },
 
     //上级部门取消事件
