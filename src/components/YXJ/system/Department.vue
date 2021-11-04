@@ -321,6 +321,7 @@ export default {
     //上级部门取消事件
     parentOnClose() {
       this.parentDialog.visible = false
+      console.log("你好")
     },
 
     //新增部门或者编辑部门弹窗确认
