@@ -341,6 +341,7 @@ export default {
             this.getDeptList();
             //关闭弹窗
             this.addDialog.visible = false;
+            console.log("hhh")
           }
 
         }
