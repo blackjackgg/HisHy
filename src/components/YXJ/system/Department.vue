@@ -351,6 +351,7 @@ export default {
     //新增部门弹窗取消
     onClose() {
       this.addDialog.visible = false;
+      console.log("hhh")
     },
 
     //编辑
